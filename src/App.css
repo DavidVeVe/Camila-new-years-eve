@@ -1,0 +1,138 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 300px;
+  max-width: 500px;
+  padding: 50px 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.tittle h1, h2, h3, p {
+  color: white;
+  position: relative;
+  z-index: 10;
+  font-size: 34px;
+  margin: 10px;
+}
+
+span {
+  color: #E4BA4E;
+  opacity: .7;
+}
+
+.tittle h1 {
+  font-size: 56px;
+  color: #E4BA4E;
+  font-family: 'Licorice', cursive;
+}
+
+.tittle h2 {
+  font-family: 'Licorice', cursive;
+}
+
+.tittle p {
+  font-size: 20px;
+  margin-top: 55px;
+}
+
+iframe {
+  width: 50%;
+  position: relative;
+  z-index: 10;
+  padding: 20px;
+}
+
+.endBtn {
+  position: relative;
+  z-index: 100;
+}
+
+.final-quoute {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 80px;
+  padding: 0 20px;
+}
+
+.my-name {
+  font-family: 'Licorice', cursive;
+}
+
+.fake-login {
+  position: relative;
+  z-index: 100;
+}
+
+input {
+  background-color: whitesmoke;
+  color: gray;
+  padding: 8px 16px;
+  border: 1px solid white;
+  border-radius: 8px;
+}
+
+.wishes {
+  font-size: 24px;
+  margin: 35px;
+}
+
+.byeBtn {
+  width: 50%;
+  background-color: transparent;
+  border-radius: 2px;
+  color: white;
+  border: 1px solid #E4BA4E;
+  border-radius: 8px;
+  padding: 4px 8px;
+  position: relative;
+  z-index: 100;
+  margin-top: 30px;
+  font-size: 18px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
